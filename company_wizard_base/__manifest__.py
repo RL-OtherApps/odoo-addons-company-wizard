@@ -1,4 +1,3 @@
-# coding: utf-8
 # Copyright (C) 2013-Today: GRAP (http://www.grap.coop)
 # @author: Julien WESTE
 # @author: Sylvain LE GAL (https://twitter.com/legalsylvain)
@@ -6,7 +5,7 @@
 
 {
     'name': 'Company Wizard - Base Module',
-    'version': '10.0.1.0.0',
+    'version': '12.0.1.0.2',
     'category': 'Tools',
     'summary': "Provide Wizard to create new companies more easily",
     'author': 'GRAP',
@@ -14,9 +13,9 @@
     'license': 'AGPL-3',
     'depends': [
         'base',
+        'res_company_code',
     ],
     'data': [
-        'views/view_res_company.xml',
         'views/view_res_company_create_wizard.xml',
     ],
     'demo': [
